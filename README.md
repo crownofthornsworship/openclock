@@ -1,26 +1,23 @@
-# OpenClock v0.2
+# OpenClock v0.3
 
-Mobile-friendly white-label time clock and payroll-preparation prototype by Salt & Light Web Studio.
+Mobile-friendly time clock and payroll-preparation prototype by Salt & Light Web Studio.
 
-## What works now
+## New in v0.3
 
-- Local demo time punches for fictional employees
-- Manager summary and estimated gross wages
-- CSV payroll-summary export
-- Custom company name, color, and tagline
-- Browser-local activity history
-- Mobile-friendly GitHub Pages-compatible static website
+- Live employee kiosk with shift notes
+- Clock-in, clock-out, and break tracking
+- Employee management with active/inactive status
+- Manager dashboard with open-shift and overtime estimates
+- Summary and detailed CSV exports
+- Company branding
+- JSON backup and restore
+- Automatic migration of v0.2 browser data
+- Improved mobile layout and accessibility
 
 ## Demo limitations
 
-This is not production payroll software. It has no authenticated accounts, server-backed punches, shared workspaces, immutable audit trail, overtime or break compliance, withholding, tax filing, direct deposit, or payroll processing. Local demo data can be changed or lost and must not be used for real payroll or confidential records.
+This is not production payroll software. It has no authenticated accounts, server-backed punches, shared workspaces, immutable audit trail, jurisdiction-aware wage rules, tax filing, direct deposit, or payroll processing. Do not use local demo data for real payroll or confidential records.
 
-## Development direction
+## Live site
 
-A production release requires secure authentication, tenant isolation, server-generated timestamps, role validation, append-only audit records, transactional punch updates, backups, monitoring, and payroll/legal review.
-
-## Deployment
-
-GitHub Pages serves the repository's `main` branch from `/ (root)`.
-
-Expected URL: https://crownofthornsworship.github.io/openclock/
+https://crownofthornsworship.github.io/openclock/
